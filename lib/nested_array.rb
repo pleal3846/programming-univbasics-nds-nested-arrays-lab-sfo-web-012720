@@ -33,10 +33,12 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  assembled_matrix [1][0]
-  sorted_matrix[1][0]
+  assembled_matrix [1][1]
+  sorted_matrix[1][1]
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
+  return assembled_matrix
+  return sorted_matrix
 end
 
 def matrix_update(matrix, row, column, new_value)
